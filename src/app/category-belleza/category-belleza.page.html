@@ -1,0 +1,42 @@
+<ion-header [translucent]="true" class="ion-no-border" >
+  <ion-toolbar class="bg_app">
+    <ion-buttons slot="end">
+      <ion-icon name="search-outline" class="icon_search"></ion-icon>
+    </ion-buttons>
+    <ion-buttons>
+      <ion-back-button color="#a9abb3" text="Atrás"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="bg_app ion-padding">
+  <ion-text class="color_text_blue títulos">
+    BELLEZA
+  </ion-text>
+  <br>
+  <div *ngFor ="let belleza of bellezaArray" class="ion-padding-bottom" routerLink="{{belleza.linkpage}}">
+    <img class="jb_populares" src="assets/img/{{belleza.img}}" alt="">
+    <ion-text class="color_text_blue sub_títulos">
+      {{belleza.nombre}}
+    </ion-text>
+    <br>
+    <ion-text class="text_description ion-text-wrap">
+      {{belleza.description}}
+    </ion-text>
+    <ion-grid>
+      <ion-row >
+        <ion-col size="6" class="ion-align-items-center">
+          <ion-icon class="icon_category_ejercicios" name="flower-outline"></ion-icon>
+          <ion-text class="jb_text_icon"> {{belleza.tiempo}}</ion-text>
+        </ion-col>
+        <ion-col size="6" class="ion-align-items-center" style="display: flex"  >
+          <ion-icon class="icon_category_ejercicios" name="cellular-outline"></ion-icon>
+          <ion-text class="jb_text_icon"> {{belleza.grado}}</ion-text>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+
+
+</ion-content>

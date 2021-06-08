@@ -24,3 +24,96 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.icon_search{
+  color: #a9abb3;
+  font-size: 30px;
+  margin: 10px;
+}
+.icon_category_ejercicios{
+  color: #e9c842;
+  font-size: 20px;
+  margin: -10px;
+}
+.icon_back{
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  z-index: 1;
+}
+.bg_app{
+  --background: #f3f5fd;
+}
+.color_text_blue{
+  color: #28418a;
+}
+.títulos{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sub_títulos{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.text_description{
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #bfbfbf;
+}
+.text_description2{
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #bfbfbf;
+}
+.jb_slide{
+  height: 90px;
+  width: 140px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.jb_slide_category{
+  border-radius: 12px;
+  width: 130px;
+  z-index: 0;
+
+}
+.jb_text_slide{
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  left: 10px;
+  bottom: 9px;
+}
+
+.jb_populares{
+  width: 385px;
+  height: 140px;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+.jb_text_icon{
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #606060;
+  padding-top: 5px;
+  position: absolute;
+  padding-left: 15px;
+}
+.jb_img-detalle{
+  width: 485px;
+  height: 385px;
+  z-index: 0;
+}
+.text-description_numeral{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2c5a70;
+}
