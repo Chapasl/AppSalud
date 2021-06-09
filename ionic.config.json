@@ -1,5 +1,7 @@
 {
   "name": "AppSalud",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
