@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryBellezaPage implements OnInit {
 // eslint-disable-next-line max-len
-  bellezaArray = [{nombre: 'Escalador (mountain climbers)', img:'category_belleza_1.jpg', description:'El escalador es un excelente ejercicio para fortalecer el abdomen, brazos y hombros. Es sencillo y sus resultados son magníficos.', tiempo: '10 min', grado: 'Fácil', linkpage: '/detalle-belleza1'} ,
+  bellezaArray = [{nombre: 'Mascarilla casera', img:'category_belleza_1.jpg', description:'Crea tu rutina de belleza, con las mascarilla casera más fácil de hacer.', tiempo: '10 min', grado: 'Medio', linkpage: '/detalle-belleza1'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Mascarrillas caseras', img:'category_belleza_2.jpg', description:'Si tienes la piel grasa, una mascarilla sencilla de hacer y muy efectiva es la siguiente.', tiempo: '5 min', grado: 'Fácil', linkpage: '/detalle-belleza2'} ,
+    {nombre: 'Terapia floral', img:'category_belleza_2.jpg', description:'Toma un baño de agua caliente de relajación acompañado de una excelente terapia floral.', tiempo: '30 min', grado: 'Fácil', linkpage: '/detalle-belleza2'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Postres naturales', img:'category_belleza_3.jpg', description:'La receta de hoy les va a encantar, no puede ser más fácil y tampoco estar más rica.', tiempo: '30 min', grado: 'Medio', linkpage: '/detalle-belleza3'} ,
+    {nombre: 'Terapia con velas', img:'category_belleza_3.jpg', description:'Meditación acompañada de velas aromáticas para una mejor relajación.', tiempo: '20 min', grado: 'Medio', linkpage: '/detalle-belleza3'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Mascarrillas caseras', img:'category_belleza_4.jpg', description:'Si tienes la piel grasa, una mascarilla sencilla de hacer y muy efectiva es la siguiente.', tiempo: '5 min', grado: 'Fácil', linkpage: '/detalle-belleza1'} ,
+    {nombre: 'Exfoliación', img:'category_belleza_4.jpg', description:'Realiza una limpieza facial con materiales fácil de enccontrar en tu hogar.', tiempo: '10 min', grado: 'Fácil', linkpage: '/detalle-belleza1'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Mascarrillas caseras', img:'category_belleza_5.jpg', description:'Si tienes la piel grasa, una mascarilla sencilla de hacer y muy efectiva es la siguiente.', tiempo: '5 min', grado: 'Fácil', linkpage: '/detalle-belleza2'} ];
+    {nombre: 'Tutorial de maquillaje', img:'category_belleza_5.jpg', description:'Tips básicos para un maquillaje sencillo y elegante.', tiempo: '15 min', grado: 'Fácil', linkpage: '/detalle-belleza2'} ];
 
   constructor() { }
 
