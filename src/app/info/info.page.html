@@ -1,0 +1,80 @@
+<ion-header [translucent]="true" class="ion-no-border" >
+  <ion-toolbar class="bg_app">
+    <ion-buttons>
+      <ion-back-button color="#a9abb3" text="Atrás"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content [fullscreen]="true" class="bg_app ion-padding ">
+  <ion-grid class="ion-text-center ">
+    <ion-row >
+      <ion-col>
+        <ion-text class="títulos" >Salud y Bienestar</ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="ion-text-center">
+    <ion-row>
+      <ion-col>
+        <img src="assets/img/info_01.jpg" alt="">
+        <ion-text class="text_description" >© Salud y Bienestar es una aplicación ionic, creada para la materia de: </ion-text>
+        <br>
+
+        <ion-text class="text_description2" >Diseño y Desarrollo de Aplicaciones para Móviles</ion-text>
+        <br>
+        <br>
+        <ion-text class="text_description" >Tema: Aplicación completa con IONIC.</ion-text>
+        <br>
+        <ion-text class="text_description" >Profesor: Alejandro Romero Hernández.</ion-text>
+        <br>
+        <ion-text class="text_description2" >Integrantes: </ion-text>
+        <br>
+        <ion-text class="text_description ion-text-right" >Johny Stalin Bautista Uday. </ion-text>
+        <br>
+        <ion-text class="text_description" >Santiago Leonardo Paladines Bernal. </ion-text>
+        <br>
+        <ion-text class="text_description" >Santiago David Llerena Carrera. </ion-text>
+        <br>
+        <br>
+        <ion-text class="text_description2" >Ecuador, 2021 </ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div >
+    <ion-fab vertical="center" horizontal="center" slot="fixed">
+      <ion-fab-button>
+        <ion-icon name="share-social"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="top">
+        <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="bottom">
+        <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="start">
+        <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="end">
+        <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+  </div>
+
+</ion-content>
+<ion-tab-bar class="bg_app">
+  <ion-tab-button routerLink="/home" >
+    <ion-icon  name="home"></ion-icon>
+    <ion-label>Inicio</ion-label>
+  </ion-tab-button>
+  <ion-tab-button routerLink="/contacto" >
+    <ion-icon  name="id-card-outline"></ion-icon>
+    <ion-label>Pedir cita</ion-label>
+  </ion-tab-button>
+  <ion-tab-button routerLink="/info" >
+    <ion-icon  name="information-circle"></ion-icon>
+    <ion-label>Información</ion-label>
+  </ion-tab-button>
+</ion-tab-bar>

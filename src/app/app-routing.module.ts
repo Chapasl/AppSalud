@@ -58,7 +58,15 @@ const routes: Routes = [
   {
     path: 'detalle-belleza3',
     loadChildren: () => import('./detalle-belleza3/detalle-belleza3.module').then( m => m.DetalleBelleza3PageModule)
+  },  {
+    path: 'contacto',
+    loadChildren: () => import('./contacto/contacto.module').then( m => m.ContactoPageModule)
   },
+  {
+    path: 'info',
+    loadChildren: () => import('./info/info.module').then( m => m.InfoPageModule)
+  },
+
 ];
 
 @NgModule({
