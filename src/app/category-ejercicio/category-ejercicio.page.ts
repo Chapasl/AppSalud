@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryEjercicioPage implements OnInit {
 // eslint-disable-next-line max-len
-  ejercicioArray = [{nombre: 'Escalador (mountain climbers)', img:'category_ejercicio_1.jpg', description:'El escalador es un excelente ejercicio para fortalecer el abdomen, brazos y hombros. Es sencillo y sus resultados son magníficos.', tiempo: '10 min', grado: 'Fácil', linkpage: '/detalle-ejercicio1'} ,
+  ejercicioArray = [{nombre: 'Estiramientos y calistenia', img:'category_ejercicio_1.jpg', description:'La mejor forma de mantenerte saludable es realizar una pequelña pero eficaz rutina de estiramiento para activar el cuerpo.', tiempo: '10 min', grado: 'Fácil', linkpage: '/detalle-ejercicio1'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Mascarrillas caseras', img:'category_ejercicio_2.jpg', description:'Si tienes la piel grasa, una mascarilla sencilla de hacer y muy efectiva es la siguiente.', tiempo: '5 min', grado: 'Fácil', linkpage: '/detalle-ejercicio2'} ,
+    {nombre: 'Rutina de ejercicios para interior', img:'category_ejercicio_2.jpg', description:'Mantente seguro y saludable con nuestra rutina de ejercicios.', tiempo: '20 min', grado: 'Fácil', linkpage: '/detalle-ejercicio2'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Postres naturales', img:'category_ejercicio_3.jpg', description:'La receta de hoy les va a encantar, no puede ser más fácil y tampoco estar más rica.', tiempo: '30 min', grado: 'Medio', linkpage: '/detalle-ejercicio3'} ,
+    {nombre: 'Rutina de ejercicios para exterior', img:'category_ejercicio_3.jpg', description:'En esta epoca de pandemia, puedes alejarte de la multitud y realizar una rutina de ejercicios.', tiempo: '50 min', grado: 'Medio', linkpage: '/detalle-ejercicio3'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Mascarrillas caseras', img:'category_ejercicio_4.jpg', description:'Si tienes la piel grasa, una mascarilla sencilla de hacer y muy efectiva es la siguiente.', tiempo: '5 min', grado: 'Fácil', linkpage: '/detalle-comida2'} ,
+    {nombre: 'Rutina de Yoga', img:'category_ejercicio_4.jpg', description:'Excelente rutnia de Yoga para meditación y realizar ejercicios pasivos.', tiempo: '25 min', grado: 'Fácil', linkpage: '/detalle-comida2'} ,
     // eslint-disable-next-line max-len
-    {nombre: 'Mascarrillas caseras', img:'category_ejercicio_5.jpg', description:'Si tienes la piel grasa, una mascarilla sencilla de hacer y muy efectiva es la siguiente.', tiempo: '5 min', grado: 'Fácil', linkpage: '/detalle-comida2'} ];
+    {nombre: 'Rutina de boxeo', img:'category_ejercicio_5.jpg', description:'Cambia tu rutina con una serie de ejercicios de boxeo.', tiempo: '15 min', grado: 'Fácil', linkpage: '/detalle-comida2'} ];
 
   constructor() { }
 
