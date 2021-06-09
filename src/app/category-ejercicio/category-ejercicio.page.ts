@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryEjercicioPage implements OnInit {
 // eslint-disable-next-line max-len
-  ejercicioArray = [{nombre: 'Estiramientos y calistenia', img:'category_ejercicio_1.jpg', description:'La mejor forma de mantenerte saludable es realizar una pequelña pero eficaz rutina de estiramiento para activar el cuerpo.', tiempo: '10 min', grado: 'Fácil', linkpage: '/detalle-ejercicio1'} ,
+  ejercicioArray = [{nombre: 'Estiramientos y calistenia', img:'category_ejercicio_1.jpg', description:'La mejor forma de mantenerte saludable es realizar una pequeña pero eficaz rutina de estiramiento para activar el cuerpo.', tiempo: '10 min', grado: 'Fácil', linkpage: '/detalle-ejercicio1'} ,
     // eslint-disable-next-line max-len
     {nombre: 'Rutina de ejercicios para interior', img:'category_ejercicio_2.jpg', description:'Mantente seguro y saludable con nuestra rutina de ejercicios.', tiempo: '20 min', grado: 'Fácil', linkpage: '/detalle-ejercicio2'} ,
     // eslint-disable-next-line max-len
