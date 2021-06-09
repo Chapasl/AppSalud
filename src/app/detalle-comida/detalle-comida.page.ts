@@ -12,9 +12,11 @@ export class DetalleComidaPage implements OnInit {
     slidesPerView:2.6
   };
 // eslint-disable-next-line @typescript-eslint/naming-convention,max-len
-  categoriesArray = [{nombre: 'Comidas', img:'sección_comida.jpg', linkpage: 'category-comida'} ,
-    {nombre: 'Ejercicios', img:'sección_ejercicio.jpg', linkpage: 'category-ejercicio'} ,
-    {nombre: 'Belleza', img:'sección_belleza.jpg', linkpage: 'category-belleza'}];
+  categoriesArray = [{nombre: 'Harina', img:'Ingrediente_1_detalle_comida_1'} ,
+    {nombre: 'Guineo Maduro', img:'Ingrediente_2_detalle_comida_1'} ,
+    {nombre: 'Mantequilla', img:'Ingrediente_3_detalle_comida_1'},
+    {nombre: 'Polvo de hornear', img:'Ingrediente_4_detalle_comida_1'},
+    {nombre: 'Horno', img:'Ingrediente_5_detalle_comida_1'}];
 
   constructor() { }
 
