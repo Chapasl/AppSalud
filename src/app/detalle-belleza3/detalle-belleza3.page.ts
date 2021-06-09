@@ -12,9 +12,9 @@ export class DetalleBelleza3Page implements OnInit {
     slidesPerView:2.6
   };
 // eslint-disable-next-line @typescript-eslint/naming-convention,max-len
-  categoriesArray = [{nombre: 'Lugar tranquilo', img:'Ingrediente_3_detalle_belleza_3'} ,
-    {nombre: 'Velas aromáticas', img:'Ingrediente_2_detalle_belleza_3'} ,
-    {nombre: 'Asiento comodo', img:'Ingrediente_1_detalle_belleza_3'}];
+  categoriesArray = [{nombre: 'Lugar tranquilo', img:'Ingrediente_3_detalle_belleza_3.jpg'} ,
+    {nombre: 'Velas aromáticas', img:'Ingrediente_1_detalle_belleza_3.jpg'} ,
+    {nombre: 'Asiento comodo', img:'Ingrediente_2_detalle_belleza_3.jpg'}];
   constructor() { }
 
   ngOnInit() {

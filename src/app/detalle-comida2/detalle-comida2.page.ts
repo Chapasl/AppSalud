@@ -12,9 +12,9 @@ export class DetalleComida2Page implements OnInit {
     slidesPerView:2.6
   };
 // eslint-disable-next-line @typescript-eslint/naming-convention,max-len
-  categoriesArray = [{nombre: 'Pan', img:'Ingrediente_1_detalle_comida_3'} ,
-    {nombre: 'Aguacate', img:'Ingrediente_1_detalle_comida_3'} ,
-    {nombre: 'Acompañamiento', img:'Ingrediente_1_detalle_comida_3'}];
+  categoriesArray = [{nombre: 'Pan', img:'Ingrediente_1_detalle_comida_2.jpg'} ,
+    {nombre: 'Aguacate', img:'Ingrediente_1_detalle_comida_2.jpg'} ,
+    {nombre: 'Acompañamiento', img:'Ingrediente_1_detalle_comida_2.jpg'}];
   constructor() { }
 
   ngOnInit() {

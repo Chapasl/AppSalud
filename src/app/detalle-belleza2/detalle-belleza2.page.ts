@@ -12,8 +12,8 @@ export class DetalleBelleza2Page implements OnInit {
     slidesPerView:2.6
   };
 // eslint-disable-next-line @typescript-eslint/naming-convention,max-len
-  categoriesArray = [{nombre: 'Comidas', img:'Ingrediente_1_detalle_belleza_2'} ,
-    {nombre: 'Ejercicios', img:'Ingrediente_2_detalle_belleza_2'}];
+  categoriesArray = [{nombre: 'Esencias florales', img:'Ingrediente_1_detalle_belleza_2.jpg'} ,
+    {nombre: 'Tina de baño', img:'Ingrediente_2_detalle_belleza_2.jpg'}];
   constructor() { }
 
   ngOnInit() {
