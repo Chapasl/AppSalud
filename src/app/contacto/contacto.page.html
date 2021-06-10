@@ -37,14 +37,14 @@
 
     <ion-item>
       <ion-label position="floating">Ingrese su edad</ion-label>
-      <ion-input type="number" nputmode="numeric"></ion-input>
+      <ion-input type="number" inputmode="numeric"></ion-input>
     </ion-item>
     <br>
 
     <ion-item class="jb_simetry">
       <ion-label position="floating">Ingrese su sexo</ion-label>
       <ion-select placeholder="seleccione una opción">
-        <ion-select-option position="floating" value="f">Hombre</ion-select-option>
+        <ion-select-option value="f">Hombre</ion-select-option>
         <ion-select-option value="m">Mujer</ion-select-option>
       </ion-select>
     </ion-item>
@@ -86,13 +86,9 @@
 
     <p class="ion-text-center">
       <ion-button type="submit" [disabled]="!usuario.valid">Guardar</ion-button>
-<!--      <ion-button type="submit" expand="full"  >Enviar</ion-button>-->
     </p>
   </form>
-<!--  <p class="ion-padding">{{ usuario.controls.nombre.value }}</p>-->
-<!--  <p class="ion-padding">{{ usuario.controls.email.value }}</p>-->
-<!--  <p class="ion-padding">{{ usuario.controls.edad.value }}</p>-->
-<!--  <p class="ion-padding">{{ usuario.controls.sexo.value }}</p>-->
+
 </ion-content>
 
 <ion-tab-bar class="bg_app">
@@ -109,105 +105,3 @@
     <ion-label>Información</ion-label>
   </ion-tab-button>
 </ion-tab-bar>
-
-<!--<ion-content [fullscreen]="true" class="bg_app ion-padding ">-->
-<!--  <ion-grid class="ion-text-center">-->
-<!--    <ion-row>-->
-<!--      <ion-col>-->
-<!--        <ion-text class="títulos" >Igrese sus datos</ion-text>-->
-<!--      </ion-col>-->
-<!--    </ion-row>-->
-<!--  </ion-grid>-->
-<!--  <br>-->
-<!--  <ion-grid>-->
-<!--    <ion-row>-->
-<!--      <ion-col>-->
-<!--        <ion-item >-->
-<!--          <ion-label  position="floating">Ingrese su nombre</ion-label>-->
-<!--          <ion-input type="text"  inputmode="text"></ion-input>-->
-<!--        </ion-item>-->
-<!--      </ion-col>-->
-<!--    </ion-row>-->
-
-<!--    <ion-row>-->
-<!--      <ion-col>-->
-<!--        <ion-item >-->
-<!--          <ion-label  position="floating">Correo</ion-label>-->
-<!--          <ion-input type="email" inputmode="email" ></ion-input>-->
-<!--        </ion-item>-->
-<!--      </ion-col>-->
-<!--    </ion-row>-->
-
-<!--    <ion-row>-->
-<!--      <ion-col>-->
-<!--        <ion-item >-->
-<!--          <ion-label  position="floating">Ingrese su edad</ion-label>-->
-<!--          <ion-input type="number" nputmode="numeric" ></ion-input>-->
-<!--        </ion-item>-->
-<!--      </ion-col>-->
-<!--    </ion-row>-->
-
-<!--    <ion-row class="ion-padding-top">-->
-<!--      <ion-item class="jb_simetry">-->
-<!--        <ion-label  position="floating">Ingrese su sexo</ion-label>-->
-<!--        <ion-select placeholder="seleccione una opción">-->
-<!--          <ion-select-option position="floating" value="f">Hombre</ion-select-option>-->
-<!--          <ion-select-option value="m">Mujer</ion-select-option>-->
-<!--        </ion-select>-->
-<!--      </ion-item>-->
-<!--    </ion-row>-->
-
-<!--    <ion-row class="ion-padding-top ">-->
-<!--      <ion-text class="sub_títulos">Elija la categoía</ion-text>-->
-<!--      <br>-->
-<!--      <br>-->
-<!--      <ion-toolbar>-->
-<!--        <ion-segment >-->
-<!--          <ion-segment-button >-->
-<!--            <ion-text class="text_description " >Comida</ion-text>-->
-<!--          </ion-segment-button>-->
-<!--          <ion-segment-button >-->
-<!--            <ion-text class="text_description" >Ejercicio</ion-text>-->
-<!--          </ion-segment-button>-->
-<!--          <ion-segment-button >-->
-<!--            <ion-text class="text_description" >Belleza</ion-text>-->
-<!--          </ion-segment-button>-->
-<!--        </ion-segment>-->
-<!--      </ion-toolbar>-->
-
-<!--    </ion-row>-->
-<!--    <br>-->
-<!--    <ion-text class="sub_títulos">Fecha tentativa para la cita</ion-text>-->
-<!--    <br>-->
-<!--    <ion-row class="ion-padding-top">-->
-<!--      <ion-item>-->
-<!--        <ion-datetime placeholder="seleccione la fecha" min="2021-01-01" max="2022-12-30"></ion-datetime>-->
-<!--      </ion-item>-->
-<!--    </ion-row>-->
-
-<!--    <ion-row class="ion-padding-top">-->
-<!--      <ion-item>-->
-<!--        <ion-label >Describa el problema:</ion-label>-->
-<!--        <ion-textarea ></ion-textarea>-->
-<!--      </ion-item>-->
-<!--    </ion-row>-->
-<!--  </ion-grid>-->
-
-<!--  <ion-button type="submit" expand="full"  >Enviar</ion-button>-->
-
-<!--</ion-content>-->
-
-<!--<ion-tab-bar class="bg_app">-->
-<!--  <ion-tab-button routerLink="/home" >-->
-<!--    <ion-icon  name="home"></ion-icon>-->
-<!--    <ion-label>Inicio</ion-label>-->
-<!--  </ion-tab-button>-->
-<!--  <ion-tab-button routerLink="/contacto" >-->
-<!--    <ion-icon  name="id-card-outline"></ion-icon>-->
-<!--    <ion-label>Pedir cita</ion-label>-->
-<!--  </ion-tab-button>-->
-<!--  <ion-tab-button routerLink="/info" >-->
-<!--    <ion-icon  name="information-circle"></ion-icon>-->
-<!--    <ion-label>Información</ion-label>-->
-<!--  </ion-tab-button>-->
-<!--</ion-tab-bar>-->
